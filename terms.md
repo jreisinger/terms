@@ -154,7 +154,7 @@ Set of characters indicating the end of a line:
 
 ## nil
 
-in Go is an untyped identifier that represents the lack of a value for pointers and pointer types (slices, maps, functions, channels, interfaces). Unlike NULL in C, nil is not another name for 0; you can't convert it back and forth with a number.
+in Go is an untyped identifier that represents the lack of a value for pointer types (e.g. *int) and types implemented with pointers (slices, maps, functions, channels, interfaces). Unlike NULL in C, nil is not another name for 0; you can't convert it back and forth with a number.
 
 ## parallelism
 
