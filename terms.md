@@ -152,6 +152,10 @@ Set of characters indicating the end of a line:
 * Linux, MacOS: `\n` (one character represented by two symbols)
 * Windows: `\r\n` (two characters)
 
+## nil
+
+in Go is an untyped identifier that represents the lack of a value for pointers and pointer types (slices, maps, functions, channels, interfaces). Unlike NULL in C, nil is not another name for 0; you can't convert it back and forth with a number.
+
 ## parallelism
 
 * doing a lot of things at once
